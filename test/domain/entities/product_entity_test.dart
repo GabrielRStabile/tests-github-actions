@@ -5,13 +5,13 @@ void main() {
   group('ProductEntity', () {
     test('should create ProductEntity with correct properties', () {
       final product = ProductEntity(
-        id: 2,
+        id: 3,
         name: 'Product 1',
         price: 10.0,
         amount: 5,
       );
 
-      expect(product.id, 2);
+      expect(product.id, 3);
       expect(product.name, 'Product 1');
       expect(product.price, 10.0);
       expect(product.amount, 5);

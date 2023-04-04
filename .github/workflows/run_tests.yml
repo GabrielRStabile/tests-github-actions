@@ -25,6 +25,3 @@ jobs:
           channel: "stable"
           cache: true
           cache-key: "flutter-:os:-:version:-:hash:"
-      - run: |
-          echo CACHE-PATH=${{ steps.flutter-action.outputs.CACHE-PATH }}
-          echo CACHE-KEY=${{ steps.flutter-action.outputs.CACHE-KEY }}

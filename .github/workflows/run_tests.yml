@@ -7,6 +7,13 @@ on:
       - "main"
       - "master"
       - "Release-**"
+    paths:
+      - "**_use_case.dart"
+      - "**_data.dart"
+      - "**_entity.dart"
+      - "**_use_case_test.dart"
+      - "**_data_spy.dart"
+      - "**_entity_test.dart"
 
 jobs:
   build:
